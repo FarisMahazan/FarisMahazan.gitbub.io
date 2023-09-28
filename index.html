@@ -1,81 +1,115 @@
 <!DOCTYPE html>
-<html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Faris Website</title>
+    <title>Resume saya</title>
     <style>
-        body {background-color: bisque;
-        text-align: center;
-        list-style-position: inside;}
-        h1 {color: blueviolet;}
-        p {color: black;}
-        table {background-color: antiquewhite;}
-        
+        body {
+            display: flex;
+            justify-content: space-between;
+            margin: 0;
+            padding: 0;
+            
+        }
+       
+        #left-section, #right-section {
+            width: 50%;
+            padding: 60px;
+            border: 1px solid #ccc;
+        }
+
+        #left-section {
+            background-color: #F9DBBD; /* Section 1, 3, 5, 7, 9 background color */
+        }
+
+        #right-section {
+            background-color: #FFA5AB; /* Section 2, 4, 6, 8, 10 background color */
+        }
+
+        /* Add more specific CSS styles for your content inside each section */
     </style>
-    
 </head>
 <body>
-    <h1><center>SELAMAT DATANG</center></h1>
-    <br>
-    <a href="profile.html" target="_blank">PROFILE</a> ||
-    <a href="http://www.psp.edu.my/" target="_blank">Website PSP</a>
-<hr>
-    <marquee width="45%"><h2 align="center"><i>Welcome to my website</i></h2></marquee>
-   <br>
-    <img src="elon mask.jpeg" width="300px" align="center">
-    
-    <p>Hi, Nama saya Elon Ma. Saya dalam proses belajar <b>HTML</b></p>
+    <div id="left-section">
+        <a href="TQ2.html" target="_blank">Tutorial Question 2</a> || <a href="TQ3.html" target="_blank">Tutorial Question 3</a>
+        <!-- Section 1 -->
+        <h2>MUHAMMAD FARIS BIN MAHAZAN</h2>
+        <img src="Faris.jpg" alt="Your Photo" width="230px">
+        
 
-    <blockquote>Ini adalah contoh blockquote</blockquote>
+         <!-- Section 3 - Personal Information -->
+		<h1>Personal Information</h1>
+		<hr>
+		<p><strong>Date of Birth:</strong> 19 MAY 2004</p>
+		<p><strong>Age:</strong> 19</p>
+		<p><strong>IC Number:</strong> 040519-11-0211</p>
 
-    <h3>Makanan Kegemaran saya:</h3>
-    <ul type = "circle">
-        <li> <a href="https://www.google.com/search?q=ayam+gepuk&sca_esv=564563673&tbm=isch&sxsrf=AB5stBgeIcmGKpvXsMg5OHvJZuab3Pfo5A:1694487821989&source=lnms&sa=X&ved=2ahUKEwjZu9KFi6SBAxWp7zgGHfatC_wQ_AUoAXoECAIQAw&biw=767&bih=726&dpr=1.25" target="_blank">Ayam Gepuk</a></li>
-        <li> <a href="https://www.google.com/search?q=mee+bandung&sca_esv=564563673&tbm=isch&sxsrf=AB5stBjCIWF3-APx-6Iv92oULXNFaLIkPQ:1694487915602&source=lnms&sa=X&ved=2ahUKEwjxl6Syi6SBAxVC1jgGHf93CB0Q_AUoAXoECAQQAw&biw=767&bih=726&dpr=1.25" target="_blank">Mee Bandung</a></li>
-        <li> <a href="https://www.google.com/search?q=kambing+bakar&sca_esv=564563673&tbm=isch&sxsrf=AB5stBhhHsYjS4D3b68GlAn4wUmKn2RqFA:1694487954293&source=lnms&sa=X&ved=2ahUKEwjkxN3Ei6SBAxVioWMGHU0RDz4Q_AUoAXoECAYQAw&biw=767&bih=726&dpr=1.25" target="_blank">Kambing Bakar</a></li>
-    </ul>
+		<!-- Section 5 - Contact -->
+		<h1>Contact</h1>
+		<hr>
+		<p><strong>Address:</strong> No 19, Jalan 11/27B, Desa Setapak, Kuala Lumpur 53300 WPKL </p>
+		<p><strong>Phone Number:</strong> 0179221738</p>
+		<p><strong>Email:</strong> farismahazan1@gmail.com</p>
 
-<hr>
+        <!-- Section 7 -->
+        <h1>Language</h1>
+        <hr>
+        <ol>
+            <li>Malay</li>
+            <li>English</li>
+           
+        </ol>
 
-    <h3> Subjek semester ini</h3>
-    <ol>
-        <li>DFT40161 -  Web Design Technology</li>
-    </ol>
-  <hr>
+        <!-- Section 9 -->
+        <h1>Hobbies</h1>
+        <hr>
+        <ul>
+            <li>play games</li>
+            <li>coding</li>
+            <li>listen to music</li>
+        </ul>
+    </div>
 
-  <h3>Hutang Ahli Keluarga</h3>
-  <table width="80%" border="1" align="center">
-    <tr>
-        <th>No.</th>
-        <th>Name</th>
-        <th>Hutang (RM)</th>
-    </tr>
-    <tr>
-        <td>1</td>
-        <td>Elon Me</td>
-        <td rowspan="2">10000.00</td>
-    </tr>
-    <tr>
-        <td>2</td>
-        <td>Elon Mi</td>
-    </tr>
-    <tr>
-        <td>3</td>
-        <td>Elon Mo</td>
-        <td>25000.00</td>
-    </tr>
-    <tr>
-        <td>4</td>
-        <td>Elon Mu</td>
-        <td>35000.00</td>
-    </tr>
-    <tr>
-        <td colspan="2"><strong>Jumlah</strong></td>
-        <td bgcolor="C6C5B9">70000.00</td>
-    </tr>
-  </table>
+    <div id="right-section">
+        <!-- Section 2 -->
+        <h1>Summary</h1>
+        <hr>
+        <p>Competent IT specialist with 2+ years of experience working with Windows Server 2016. Microsoft Certified Solutions Expert. Advanced knowledge in SQL, Java, HTML, and CSS.</p>
 
+        <!-- Section 4 -->
+        <h1>Skill Highlights</h1>
+        <hr>
+        <ul>
+            <li>Good communication</li>
+            <li>Good time management</li>
+            <li>Teamwork with other</li>
+			<li>Can be leadership</li>
+        </ul>
 
+        <!-- Section 6 -->
+        <h1>Experience</h1>
+        <hr>
+        <ul>
+            <li>Coding and Development:
+				Writing code using various programming languages (e.g., HTML, CSS, JavaScript) and frameworks to build the website's front end, back end, and database functionality. This involves creating responsive designs, implementing interactivity, and integrating databases if needed.</li>
+        </ul>
+
+        <!-- Section 8 -->
+        <h1>Education</h1>
+        <hr>
+		<ul>
+		<li>SK BUKIT KUANG - 2011-2014.</li>
+        <li>SK KUANG - 2014-2016.</li>
+		<li>SMK SUNGAI PUSU - 2017-2022.</li>
+        <li>POLITEKNIK SEBERANG PERAI - 2022-2025.</li>
+		</ul>
+
+        <!-- Section 10 -->
+        <h1>Certification</h1>
+        <hr>
+		<ul>
+        <li>Python certification.</li>
+		<li>Cyber security certifications.</li>
+		<li>IT certifications</li>
+		</ul>
+    </div>
 </body>
 </html>
