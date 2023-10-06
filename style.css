@@ -1,0 +1,40 @@
+body {
+    background-color: #DDF8E8;
+    text-align: center;
+    list-style-position: inside;
+    }
+
+.container{ 
+    background-color: #CDD5D1;
+    border: none;
+    width: 1280px;
+    height: 920px;
+    padding: 50px;
+    margin: 0 auto; 
+    border-radius: 30px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+
+ ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+ a{
+    text-align: center;
+    padding: 10px 
+}
+
+ a:hover{
+    color: #38A3A5;
+    background-color: #22577A;
+}
+
+h1 {color: #615055;}
+
+p {color: black;}
+
+table {background-color: #B4A6AB;}
+
